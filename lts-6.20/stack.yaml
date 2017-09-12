@@ -1,0 +1,23 @@
+# This is the implicit global project's config file, which is only used when
+# 'stack' is run outside of a real project.  Settings here do _not_ act as
+# defaults for all projects.  To change stack's default settings, edit
+# '/root/.stack/config.yaml' instead.
+#
+# For more information about stack's configuration, see
+# http://docs.haskellstack.org/en/stable/yaml_configuration/
+#
+flags: {}
+extra-package-dbs: []
+packages: []
+extra-deps: []
+
+resolver: lts-6.20
+compiler: ghcjs-0.2.0.9006020_ghc-7.10.3
+compiler-check: match-exact
+
+setup-info:
+  ghcjs:
+    source:
+      ghcjs-0.2.0.9006020_ghc-7.10.3:
+        url: http://ghcjs.tolysz.org/lts-6.20-9006020.tar.gz
+        sha1: a6cea90cd8121eee3afb201183c6e9bd6bacd94a
